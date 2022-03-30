@@ -44,3 +44,4 @@ runs:
         echo "Uploading files"
 
         scp ${{ inputs.source }} ${{ inputs.deployUser }}@${{ inputs.deployHost }}:../../web/${{ inputs.destination }};
+        #
