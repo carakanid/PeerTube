@@ -19,8 +19,10 @@ jobs:
       name: Check out code
       
     - run: yarn install
-    - run: cp /scripts/build/* .
+    - run: cp ./scripts/build/* .
     - run: ./client.sh
     - run: ./embed.sh
     - run: ./index.sh
     - run: ./server.sh
+    
+    
